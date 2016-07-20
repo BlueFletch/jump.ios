@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.license       = { :type => 'BSD', :file => 'LICENSE' }
   s.author        = "Janrain"
   s.source        = { :git => "https://github.com/janrain/jump.ios.git", :tag => "v3.9.0" }
-  s.platform      = :ios, '5.0'
+  s.platform      = :ios, '8.4'
   s.source_files  = "Janrain/**/*.{h,m}"
   s.exclude_files = "Janrain/JRCapture/**/*"
   s.resources     = ["Janrain/JREngage/Resources/**/*", "Janrain/JREngage/**/*.js"]
